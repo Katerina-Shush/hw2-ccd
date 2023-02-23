@@ -28,11 +28,3 @@ if __name__ == '__main__':
     params_x = np.random.normal(size=(20,))
     b = A @ params_x + 0.01*np.random.normal(size=(500,))
 
-    x1, x2, x3 = lstsq_ne(A, b)
-    print(x1)
-    print('________________')
-    print(x2)
-    print('________________')
-    #print(x3)
-    print('________________')
-
